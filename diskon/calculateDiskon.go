@@ -1,6 +1,6 @@
 package diskon
 
-func calculateDiskon(price int, percentase int) int {
+func CalculateDiskon(price int, percentase int) int {
 	diskon := (price * percentase) / 100
 	return price - diskon
 }
