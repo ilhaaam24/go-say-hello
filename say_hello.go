@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHello() {
-	println("Hello from gosayhello")
+func SayHello() string {
+	return "Hello, from go say hello!"
 }
